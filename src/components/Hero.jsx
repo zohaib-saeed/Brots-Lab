@@ -3,7 +3,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="w-full min-h-[800px] ssm:min-h-0 h-[96vh] ssm:h-[930px] sxl:h-[100vh] flex flex-col items-center justify-end  sxl:justify-center  px-4 ssm:px-6  lg:px-8 bg-[url('/images/hero-bg-sm.svg')] sxl:bg-[url('/images/hero-bg.svg')] bg-no-repeat bg-hero-sm sxl:bg-center bg-cover bg-black  relative">
+    <div className="w-full min-h-[800px] ssm:min-h-0 h-[100vh] ssm:h-[930px] sxl:h-[100vh] flex flex-col items-center justify-end  sxl:justify-center  px-4 ssm:px-6  lg:px-8 bg-[url('/images/hero-bg-sm.svg')] sxl:bg-[url('/images/hero-bg.svg')] bg-no-repeat bg-hero-sm sxl:bg-center bg-cover bg-black  relative">
       <div className="w-full flex justify-between lg:justify-start items-center absolute top-4 ssm:top-5 left-0 px-4 ssm:px-6 lg:px-8">
         {/* => Logo  */}
         <div className="w-[120px] h-[32px] relative flex items-center justify-center object-contain">
