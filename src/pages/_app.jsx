@@ -4,8 +4,18 @@ import "@/styles/globals.css";
 const surt = localFont({
   src: [
     {
-      path: "./fonts/HelveticaNeue.ttf",
+      path: "./fonts/HelveticaNeueLight.ttf",
+      weight: "300",
+      style: "normal",
+    },
+    {
+      path: "./fonts/HelveticaNeueLight.ttf",
       weight: "400",
+      style: "normal",
+    },
+    {
+      path: "./fonts/HelveticaNeueMedium.ttf",
+      weight: "500",
       style: "normal",
     },
     {

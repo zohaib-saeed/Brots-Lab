@@ -1,7 +1,9 @@
+import Hero from "@/components/Hero";
+
 export default function Home() {
   return (
-    <div className="bg-black font-semibold w-[100vw] h-[100vh] flex items-center justify-center text-white">
-      Home
+    <div className="w-full flex flex-col items-center justify-start b ">
+      <Hero />
     </div>
   );
 }
