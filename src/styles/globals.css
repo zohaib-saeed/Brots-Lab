@@ -26,13 +26,3 @@
     background-position: 14% 0%;
   }
 }
-
-.react-player {
-  width: 100% !important;
-  height: 100% !important;
-}
-.react-player video {
-  width: 100% !important;
-  height: 100% !important;
-  object-fit: cover !important;
-}
