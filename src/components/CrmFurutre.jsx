@@ -40,13 +40,13 @@ const CrmFurutre = () => {
             </p>
           </div>
         </div>
-        <div className="w-full flex items-center mxl:items-start vxl:items-center justify-center mxl:justify-end xxl:pt-16 vxl:pt-0">
+        <div className="w-full flex items-center mxl:items-start vxl:items-center justify-center mxl:justify-end ">
           <video
             autoPlay
             loop
             muted
             playsInline
-            className="w-[320px] ssm:w-[425px] h-[320px] ssm:h-[425px]  xxl:w-[576px] xxl:h-[576px] rounded-md overflow-hidden"
+            className="w-[320px] ssm:w-[425px] h-[320px] ssm:h-[425px]  xxl:w-[576px] xxl:h-[576px] rounded-xl overflow-hidden"
           >
             <source src="/videos/crm-future.mp4" type="video/mp4" />
           </video>

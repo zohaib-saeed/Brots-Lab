@@ -2,7 +2,7 @@ import React from "react";
 
 const Tokengate = () => {
   return (
-    <div className="w-full h-[700px] sm:h-[800px] lg:h-[600px] sxl:h-[700px] xl:h-[800px] xxl:h-[950px] vxl:h-[850px] flex flex-col items-center justify-center sm:py-10 ssm:py-24 px-6 xs:px-8 sm:px-10 md:px-12 lg:px-20 sxl:px-32 xxl:px-40  relative ">
+    <div className="w-full h-[700px] sm:h-[800px] lg:h-[600px] sxl:h-[700px] xl:h-[800px] xxl:h-[950px] vxl:h-[850px] flex flex-col items-center justify-center sm:py-10 ssm:py-24 px-6 xs:px-8 sm:px-10 md:px-12 lg:px-8  xxl:px-40  relative ">
       {/* Background video  */}
       <div>
         {/* => Above 1024px  */}
