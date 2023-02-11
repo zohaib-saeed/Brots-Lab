@@ -46,7 +46,7 @@ const CtaSection = () => {
         </div>
       </div>
       {/* => CTA Item 2  */}
-      <div className="w-full grid grid-cols-2 mt-[240px] sxl:mt-[22em]  pb-[600px]">
+      <div className="w-full grid grid-cols-2 mt-[240px] sxl:mt-[22em]  pb-[600px] z-[10]">
         {/* Col 1  */}
         <div className="w-full lg:w-[97%]  flex flex-col items-start justify-start gap-5 ssm:gap-8 xxl:gap-12 relative">
           <h2 className="text-[50px] ssm:text-[65px] xxl:text-[100px] leading-[50px] ssm:leading-[63px] xxl:leading-[100px] text-white font-medium ssm:font-bold text-left">
@@ -72,13 +72,13 @@ const CtaSection = () => {
               <Image src="/images/cubes/cube3a.svg" alt="" fill />
             </div>
             {/* Upto 1920 px  */}
-            <div className=" mxl:w-[1000px] h-[700px] mxl:left-[-5em]  mxl:top-[260px]  absolute  mxl:flex xxl:hidden  items-center justify-center object-contain">
+            <div className=" mxl:w-[1000px] h-[700px] mxl:left-[-5em]  mxl:top-[260px]  absolute  mxl:flex xxl:hidden  items-center justify-center object-contain z-[-1]">
               <Image src="/images/cubes/cube3b.svg" alt="" fill />
             </div>
           </div>
         </div>
         {/* Col 2  */}
-        <div className="w-full flex items-end justify-end pt-[19em] mxl:pt-0 xxl:pt-[9em] vxl:pt-0 relative">
+        <div className=" w-full flex items-end justify-end pt-[19em] mxl:pt-0 xxl:pt-[9em] vxl:pt-0 relative ">
           <video
             autoPlay
             loop
@@ -88,6 +88,10 @@ const CtaSection = () => {
           >
             <source src="/videos/delete.mp4" type="video/mp4" />
           </video>
+          {/* Cube 03  */}
+          <div className="xxl:w-[1100px] vxl:w-[1200px] h-[700px] vxl:h-[800px] xxl:top-[31em] vxl:top-[12em] xxl:right-[-27.5em] vxl:right-[-11.3em]  absolute hidden xxl:flex items-center justify-center object-contain z-[-1]">
+            <Image src="/images/cubes/cube3c.svg" alt="" fill />
+          </div>
         </div>
       </div>
     </div>
