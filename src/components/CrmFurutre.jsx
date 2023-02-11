@@ -2,7 +2,7 @@ import React from "react";
 
 const CrmFurutre = () => {
   return (
-    <div className="w-full flex flex-col items-center justify-center py-6 ssm:py-16 px-4 ssm:px-6 lg:px-8 mxl:px-16 xxl:px-40 bg-black">
+    <div className="w-full flex flex-col items-center justify-center py-10 ssm:py-16 mxl:py-28 px-4 ssm:px-6 lg:px-8  xxl:px-40 bg-black">
       <div className="w-full grid lg:grid-cols-1 mxl:grid-cols-[1.3fr_0.7fr] gap-12 ssm:gap-16 mxl:gap-4">
         <div className="w-full flex flex-col items-start justify-start gap-5 ssm:gap-8 xxl:gap-12">
           <h2 className="text-[50px] ssm:text-[65px] xxl:text-[100px] leading-[50px] ssm:leading-[63px] xxl:leading-[100px] text-white font-medium ssm:font-bold text-left">
