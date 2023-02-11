@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import ReactPlayer from "react-player";
+import ReactPlayer from "react-player/lazy";
 
 const CrmFurutre = () => {
   // State to check the window. The ReactPlayer will only be rendered when there is windo available. It is done to the hydration error given by the ReacPlayer due to Next.js pre-rendering feature.
