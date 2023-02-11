@@ -2,7 +2,7 @@ import React from "react";
 
 const Tokengate = () => {
   return (
-    <div className="w-full h-[700px] sm:h-[800px] lg:h-[600px] sxl:h-[700px] xl:h-[800px] xxl:h-[950px] vxl:h-[850px] flex flex-col items-center justify-center sm:py-10 ssm:py-24 px-6 xs:px-8 sm:px-10 md:px-12 lg:px-20 sxl:px-32 xxl:px-24  relative ">
+    <div className="w-full h-[700px] sm:h-[800px] lg:h-[600px] sxl:h-[700px] xl:h-[800px] xxl:h-[950px] vxl:h-[850px] flex flex-col items-center justify-center sm:py-10 ssm:py-24 px-6 xs:px-8 sm:px-10 md:px-12 lg:px-20 sxl:px-32 xxl:px-40  relative ">
       {/* Background video  */}
       <div>
         {/* => Above 1024px  */}
@@ -41,7 +41,7 @@ const Tokengate = () => {
             click, con la tecnologia di Brots per sbloccare un’esperienza di
             shopping unica.
           </p>
-          <p className="text-left font-medium text-[16px] sm:text-[20px]  mxl:text-[22px] xxl:text-[34px] leading-[19px] sm:leading-[22px] mxl:leading-[27px] xxl:leading-[37px] text-mercury ">
+          <p className="text-left font-normal text-[16px] sm:text-[20px]  mxl:text-[22px] xxl:text-[34px] leading-[19px] sm:leading-[22px] mxl:leading-[27px] xxl:leading-[37px] text-mercury ">
             Con una tokengate puoi riconoscere e premiare i tuoi clienti fedeli.
             <br />I possessori dell’NFT potranno acquistare prodotti esclusivi o
             in anteprima, partecipare a eventi e altro a cui si accede
