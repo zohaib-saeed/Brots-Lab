@@ -14,7 +14,7 @@ const Hero = () => {
           <Image src="/icons/menu.svg" alt="" width={20} height={10} />
         </div>
       </div>
-      <div className="w-full flex flex-col items-start justify-start gap-5 md:gap-8 ssm:px-2 sm:px-4 md:px-6 lg:px-8 pb-16 sxl:pb-0 sxl:pt-16 ">
+      <div className="w-full flex flex-col items-start justify-start gap-5 md:gap-8 ssm:px-2 sm:px-4 md:px-6 lg:px-8 pb-16 sxl:pb-0 sxl:pt-20 ">
         <h1 className="text-[55px] ssm:text-[80px] md:text-[100px] text-white font-bold leading-[56px] ssm:leading-[81px] md:leading-[90px] lg:leading-[82px]">
           Posiziona <br className="hidden md:inline" />
           il tuo brand <br className="hidden md:inline" />
