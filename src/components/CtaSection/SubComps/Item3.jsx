@@ -38,7 +38,7 @@ const Item3 = () => {
             <Image src="/images/cubes/cube1-mob.svg" alt="" fill />
           </div>
           {/* Cube 7 => Mobile  */}
-          <div className="w-[413px] sm:w-[536px] h-[344px] absolute right-[-9em] xs:right-[-6em]  sm:right-[-7em] top-[15.5em] xs:top-[18em] sm:top-[-22em] flex md:hidden items-center justify-center  object-contain z-[1] ">
+          <div className="w-[413px] sm:w-[536px] h-[344px] absolute right-[-9em] xs:right-[-6em]  sm:right-[-7em] top-[15.5em] xs:top-[18em] ssm:top-[20em] sm:top-[22em] flex md:hidden items-center justify-center  object-contain z-[1] ">
             <Image src="/images/cubes/cube5-mob.svg" alt="" fill />
           </div>
         </div>
