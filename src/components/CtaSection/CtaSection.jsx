@@ -4,6 +4,7 @@ import Button from "../Commons/Button";
 import Item1 from "./SubComps/Item1";
 import Item2 from "./SubComps/Item2";
 import Item3 from "./SubComps/Item3";
+import PressCoverage from "./SubComps/PressCoverage";
 
 const CtaSection = () => {
   return (
@@ -14,6 +15,8 @@ const CtaSection = () => {
       <Item2 />
       {/* CTA Item 3  */}
       <Item3 />
+      {/* Press Coverage  */}
+      <PressCoverage />
     </div>
   );
 };
