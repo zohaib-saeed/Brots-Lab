@@ -12,7 +12,7 @@ const Item3 = () => {
           loop
           muted
           playsInline
-          className="w-[324px] xs:w-[354px] ssm:w-[400px] mxl:w-[485px] xxl:w-[576px] vxl:w-[790px] h-[324px] xs:h-[354px] ssm:h-[400px] mxl:h-[485px] xxl:h-[576px] vxl:h-[790px]  rounded-xl object-cover z-[999] md:z-auto "
+          className="w-[324px] xs:w-[354px] ssm:w-[400px] mxl:w-[485px] xxl:w-[576px] vxl:w-[790px] h-[324px] xs:h-[354px] ssm:h-[400px] mxl:h-[485px] xxl:h-[576px] vxl:h-[790px] rounded-md md:rounded-xl object-cover z-[999] md:z-auto "
         >
           <source src="/videos/collaborate.mp4" type="video/mp4" />
         </video>
@@ -34,7 +34,7 @@ const Item3 = () => {
             <Image src="/images/cubes/cube6b.svg" alt="" fill />
           </div>
           {/* Cube 6 => Mobile  */}
-          <div className="w-[598px] h-[300px] sm:h-[405px] absolute left-[-17em] ssm:left-[-18em] sm:left-[-17em] top-[-5.5em] ssm:top-[-6em] sm:top-[-7em] flex md:hidden items-center justify-center  object-contain z-[1] ">
+          <div className="w-[598px] h-[300px] sm:h-[405px] absolute left-[-17em] ssm:left-[-18em] sm:left-[-17em] top-[-6em] ssm:top-[-6em] sm:top-[-7em] flex md:hidden items-center justify-center  object-contain z-[1] ">
             <Image src="/images/cubes/cube1-mob.svg" alt="" fill />
           </div>
           {/* Cube 7 => Mobile  */}
