@@ -7,7 +7,7 @@ import Item3 from "./SubComps/Item3";
 
 const CtaSection = () => {
   return (
-    <div className="w-full flex flex-col items-center justify-center py-10 ssm:py-16 mxl:py-28 px-4 ssm:px-6 lg:px-12 mxl:px-20 xxl:px-40 bg-black overflow-hidden">
+    <div className="w-full flex flex-col items-center justify-center py-10 ssm:py-16 md:py-32 lg:py-20 mxl:py-28 px-4 ssm:px-6 lg:px-12 mxl:px-20 xxl:px-40 bg-black overflow-hidden">
       {/* => CTA Item 1 */}
       <Item1 />
       {/* => CTA Item 2  */}

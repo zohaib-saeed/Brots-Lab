@@ -4,9 +4,9 @@ import Button from "@/components/Commons/Button";
 
 const Item3 = () => {
   return (
-    <div className="w-full grid grid-cols-2 pb-[600px] mt-[15em] mlg:mt-[15em]  mxl:mt-[34em] sxxl:mt-[27em] xxl:mt-[20em] vxl:mt-[23em]">
+    <div className="w-full grid grid-cols-1 mdl:grid-cols-2 gap-16 mdl:gap-0 pb-[600px] mt-[10em] mdl:mt-[15em] mlg:mt-[15em]  mxl:mt-[34em] sxxl:mt-[27em] xxl:mt-[20em] vxl:mt-[23em] px-16 md:px-20 mdl:px-0 ">
       {/* Col 1 */}
-      <div className="w-full flex items-start justify-start  relative ">
+      <div className="order-last mdl:order-first w-full flex items-start justify-center mdl:justify-start  relative ">
         <div className="w-[400px] sxl:w-[485px] xxl:w-[576px] vxl:w-[773px] h-[400px] sxl:h-[485px] xxl:h-[576px] vxl:h-[773px]  relative flex items-center justify-center object-cover ">
           <Image src="/images/collaborate.png" alt="" fill />
         </div>
@@ -28,7 +28,7 @@ const Item3 = () => {
       {/* Col 2  */}
       <div className="w-full relative pt-[9em] mxl:pt-0 xxl:pt-[7em] vxl:pt-0 ">
         <div className="w-full  xxl:w-[90%]  flex flex-col items-start justify-start gap-5 ssm:gap-8 xxl:gap-12 ">
-          <h2 className=" lg:w-[80%] xxl:w-full text-[50px] ssm:text-[65px] xxl:text-[100px] leading-[53px] ssm:leading-[66px] xxl:leading-[106px] text-white font-medium ssm:font-bold text-left">
+          <h2 className="w-[75%] mdl:w-full   lg:w-[80%] xxl:w-full text-[50px] ssm:text-[65px] xxl:text-[100px] leading-[53px] ssm:leading-[66px] xxl:leading-[106px] text-white font-medium ssm:font-bold text-left">
             Collabora come mai prima d’ora
           </h2>
           <p className="w-full xxl:w-[81%] vxl:w-[80%] text-left text-softPeach text-[16px] ssm:text-[20px]  ">
@@ -43,7 +43,7 @@ const Item3 = () => {
           </div>
           <div>
             {/* Cube 4a => Upto 1366px  */}
-            <div className="w-[1000px] h-[700px] absolute -right-[40em] top-[-20em] flex mxl:hidden items-center justify-center object-contain">
+            <div className="w-[1000px] h-[700px] absolute right-[-55em] mdl:right-[-40em] top-[-60w-[75%] mdl:w-full em] mdl:top-[-20em] flex mxl:hidden items-center justify-center object-contain">
               <Image src="/images/cubes/cube4a.svg" alt="" fill />
             </div>
             {/* Cube 4d => From 1920px to onwards */}
