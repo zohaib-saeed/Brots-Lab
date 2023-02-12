@@ -30,3 +30,21 @@ html {
     background-position: 14% 0%;
   }
 }
+
+.btn-common:hover {
+  background: linear-gradient(
+    90deg,
+    hsla(54, 23%, 91%, 1) 14%,
+    hsla(276, 52%, 66%, 1) 50%,
+    hsla(274, 100%, 47%, 1) 100%
+  );
+}
+
+.btn-hero-sec:hover {
+  background: linear-gradient(
+    90deg,
+    hsla(54, 23%, 91%, 1) 14%,
+    hsla(276, 52%, 66%, 1) 43%,
+    hsla(274, 100%, 47%, 1) 100%
+  );
+}

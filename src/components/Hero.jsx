@@ -24,7 +24,7 @@ const Hero = () => {
           Rafforza il legame con i tuoi clienti e aumenta le vendite offrendo un
           accesso esclusivo a prodotti ed esperienze.
         </p>
-        <button className=" flex justify-between items-center h-[40px] w-[300px] bg-white px-2 rounded">
+        <button className="btn-hero-sec flex justify-between items-center h-[40px] w-[300px] bg-white px-2 rounded">
           <p className="text-black uppercase font-normal text-lg leading-[0px]">
             INIZIA
           </p>
