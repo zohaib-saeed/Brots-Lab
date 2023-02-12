@@ -4,12 +4,18 @@ import Button from "@/components/Commons/Button";
 
 const Item3 = () => {
   return (
-    <div className="w-full grid grid-cols-1 mdl:grid-cols-2 gap-16 mdl:gap-0 pb-[600px] mt-[10em] mdl:mt-[15em] mlg:mt-[15em]  mxl:mt-[34em] sxxl:mt-[27em] xxl:mt-[20em] vxl:mt-[23em] px-16 md:px-20 mdl:px-0 ">
+    <div className="w-full grid grid-cols-1 mdl:grid-cols-2 gap-16 mdl:gap-0 pb-[600px] mt-[2em] mdl:mt-[15em] mlg:mt-[15em]  mxl:mt-[34em] sxxl:mt-[27em] xxl:mt-[20em] vxl:mt-[23em] px-16 md:px-20 mdl:px-0 ">
       {/* Col 1 */}
       <div className="order-last mdl:order-first w-full flex items-start justify-center mdl:justify-start  relative ">
-        <div className="w-[400px] sxl:w-[485px] xxl:w-[576px] vxl:w-[773px] h-[400px] sxl:h-[485px] xxl:h-[576px] vxl:h-[773px]  relative flex items-center justify-center object-cover ">
-          <Image src="/images/collaborate.png" alt="" fill />
-        </div>
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-[400px] mxl:w-[485px] xxl:w-[576px] vxl:w-[790px] h-[400px] mxl:h-[485px] xxl:h-[576px] vxl:h-[790px]  rounded-xl object-cover "
+        >
+          <source src="/videos/collaborate.mp4" type="video/mp4" />
+        </video>
         <div>
           {/* Cube 4b => From 1366 Upto 2560px  */}
           <div className="w-[1396px] xxl:w-[1689px] h-[700px] absolute left-[-44em] xxl:left-[-57em] top-[23em] xxl:top-[34em] hidden mxl:flex vxl:hidden items-center justify-center object-contain">
@@ -22,6 +28,10 @@ const Item3 = () => {
           {/* Cube 4e =>  2560px to onwards */}
           <div className="w-[1680px] h-[700px] absolute left-[-56em] top-[-33em] hidden vxl:flex items-center justify-center object-contain">
             <Image src="/images/cubes/cube4e.svg" alt="" fill />
+          </div>
+          {/* Cube 6b => From 768px t0 976px  */}
+          <div className="w-[1100px]  h-[700px] -right-[10em] top-[7em] absolute hidden mdl:hidden md:flex items-center justify-center object-contain">
+            <Image src="/images/cubes/cube6b.svg" alt="" fill />
           </div>
         </div>
       </div>
@@ -43,7 +53,7 @@ const Item3 = () => {
           </div>
           <div>
             {/* Cube 4a => Upto 1366px  */}
-            <div className="w-[1000px] h-[700px] absolute right-[-55em] mdl:right-[-40em] top-[-60w-[75%] mdl:w-full em] mdl:top-[-20em] flex mxl:hidden items-center justify-center object-contain">
+            <div className="w-[1000px] h-[700px] absolute right-[-55em] mdl:right-[-40em] top-[-52em] mdl:w-full  mdl:top-[-20em] flex mxl:hidden items-center justify-center object-contain ">
               <Image src="/images/cubes/cube4a.svg" alt="" fill />
             </div>
             {/* Cube 4d => From 1920px to onwards */}
@@ -53,6 +63,10 @@ const Item3 = () => {
             {/* Cube 5a => From 1280px to 1360px */}
             <div className="w-[1000px] mlg:w-[1070px] h-[530px]  absolute mdl:right-[-9em] lg:right-[-4em] mlg:right-[-3em] top-[21em] lg:top-[23em] mlg:top-[20em] sxl:top-[26em] hidden mdl:flex mxl:hidden  items-center justify-center object-contain">
               <Image src="/images/cubes/cube5a.svg" alt="" fill />
+            </div>
+            {/* Cube 6a => From 768px t0 976px  */}
+            <div className="w-[420px]  h-[700px] -right-[19.9em] top-[-14em] absolute hidden mdl:hidden md:flex items-center justify-center object-contain">
+              <Image src="/images/cubes/cube6a.svg" alt="" fill />
             </div>
           </div>
         </div>
