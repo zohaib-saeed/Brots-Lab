@@ -33,6 +33,10 @@ const Item3 = () => {
           <div className="w-[1100px]  h-[700px] -right-[10em] top-[7em] absolute hidden mdl:hidden md:flex items-center justify-center object-contain">
             <Image src="/images/cubes/cube6b.svg" alt="" fill />
           </div>
+          {/* Cube 6 => Mobile  */}
+          <div className="w-[598px] h-[300px] sm:h-[405px] absolute left-[-17em] ssm:left-[-18em] sm:left-[-17em] top-[-5.5em] ssm:top-[-6em] sm:top-[-7em] flex md:hidden items-center justify-center  object-contain z-[1] ">
+            <Image src="/images/cubes/cube1-mob.svg" alt="" fill />
+          </div>
         </div>
       </div>
       {/* Col 2  */}
