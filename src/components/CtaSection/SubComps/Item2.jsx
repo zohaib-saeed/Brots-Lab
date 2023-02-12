@@ -46,7 +46,7 @@ const Item2 = () => {
           loop
           muted
           playsInline
-          className="w-[400px] mxl:w-[485px] xxl:w-[576px] vxl:w-[790px] h-[400px] mxl:h-[485px] xxl:h-[576px] vxl:h-[790px]  rounded-xl object-cover z-[999] md:z-auto"
+          className="w-[320px] xs:w-[354px] ssm:w-[400px] mxl:w-[485px] xxl:w-[576px] vxl:w-[790px] h-[320px] xs:h-[354px] ssm:h-[400px] mxl:h-[485px] xxl:h-[576px] vxl:h-[790px]  rounded-xl object-cover z-[999] md:z-auto"
         >
           <source src="/videos/delete.mp4" type="video/mp4" />
         </video>
