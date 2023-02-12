@@ -1,5 +1,5 @@
 import CrmFurutre from "@/components/CrmFurutre";
-import CtaSection from "@/components/CtaSection";
+import CtaSection from "@/components/CtaSection/CtaSection";
 import Hero from "@/components/Hero";
 import Tokengate from "@/components/Tokengate";
 
