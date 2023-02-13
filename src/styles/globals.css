@@ -48,3 +48,7 @@ html {
     hsla(274, 100%, 47%, 1) 100%
   );
 }
+
+.w-ths {
+  width: 1000px !important;
+}
