@@ -12,17 +12,17 @@ const Item1 = () => {
         </div>
         {/* Cube 01 - Upto 976px*/}
         <div
-          className="w-[400px]  sxl:w-[560px] xxl:w-[650px] vxl:w-[830px] h-[700px] xxl:h-[647px] vxl:h-[800px] -left-[150px]  sxl:left-[-225px] xxl:left-[-24em] vxl:left-[-32em] top-[220px] 
-    sxl:top-[295px] xxl:top-[22em] vxl:top-[25em] absolute hidden mdl:flex items-center justify-center object-contain"
+          className="w-[400px]  sxl:w-[560px] xxl:w-[650px] vxl:w-[830px] h-[700px] xxl:h-[647px] vxl:h-[800px] -left-[150px]  sxl:left-[-225px] xxl:left-[-384px] vxl:left-[-512px] top-[220px] 
+    sxl:top-[295px] xxl:top-[352px] vxl:top-[400px] absolute hidden mdl:flex items-center justify-center object-contain"
         >
           <Image src="/images/cubes/cube1.svg" alt="" fill />
         </div>
         {/* Cube 1 => Mobile  */}
-        <div className="w-[598px] h-[300px] sm:h-[405px] absolute left-[-17em] sm:left-[-17em] top-[-6em] flex md:hidden items-center justify-center  object-contain z-[1] ">
+        <div className="w-[598px] h-[300px] sm:h-[405px] absolute left-[-272px] ssm:left-[-284px] sm:left-[-272px] top-[-96px] flex md:hidden items-center justify-center  object-contain z-[1] ">
           <Image src="/images/cubes/cube1-mob.svg" alt="" fill />
         </div>
         {/* Cube 2 => Mobile  */}
-        <div className="w-[350px] sm:w-[500px] h-[300px] absolute right-[-8.3em] sm:right-[-12em] top-[9.5em] xs:top-[10.5em] ssm:top-[13.5em] sm:top-[14em] flex md:hidden items-center justify-center  object-contain z-[1] ">
+        <div className="w-[350px] sm:w-[500px] h-[300px] absolute right-[-132.8px] sm:right-[-192px] top-[152px] xs:top-[168px] ssm:top-[216px] sm:top-[224px] flex md:hidden items-center justify-center  object-contain z-[1] ">
           <Image src="/images/cubes/cube2-mob.svg" alt="" fill />
         </div>
       </div>
@@ -51,7 +51,7 @@ const Item1 = () => {
           </div>
         </div>
         {/* Cube 02 => From 768px  */}
-        <div className="w-[400px] mxl:w-[560px] xxl:w-[650px] vxl:w-[840px] h-[700px] xxl:h-[1000px] vxl:h-[1048px] top-[6em] mdl:top-[28em] mxl:top-[11em] xxl:top-[27em] vxl:top-[26em] right-[-20em] mdl:right-[-106px] mxl:right-[-19em] xxl:right-[-14em] vxl:right-[-11.7em]  absolute hidden md:flex items-center justify-center object-contain ">
+        <div className="w-[400px] mxl:w-[560px] xxl:w-[650px] vxl:w-[840px] h-[700px] xxl:h-[1000px] vxl:h-[1048px] top-[96px] mdl:top-[448px] mxl:top-[176px] xxl:top-[432px] vxl:top-[416px] right-[-320px] mdl:right-[-106px] mxl:right-[-304px] xxl:right-[-224px] vxl:right-[-187.2px]  absolute hidden md:flex items-center justify-center object-contain ">
           <Image src="/images/cubes/cube2.svg" alt="" fill />
         </div>
       </div>
