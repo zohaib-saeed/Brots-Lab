@@ -18,7 +18,7 @@ const Item3 = () => {
         </video>
         <div>
           {/* Cube 4b => From 1366 Upto 2560px  */}
-          <div className="w-[1396px] xxl:w-[1689px] h-[700px] absolute left-[-704] xxl:left-[-912] top-[368px] xxl:top-[544px] hidden mxl:flex vxl:hidden items-center justify-center object-contain">
+          <div className="w-[1396px] xxl:w-[1689px] h-[700px] absolute left-[-704px] xxl:left-[-912px] top-[368px] xxl:top-[544px] hidden mxl:flex vxl:hidden items-center justify-center object-contain">
             <Image src="/images/cubes/cube4b.svg" alt="" fill />
           </div>
           {/* Cube 4c => From 2560px  to onwards */}
