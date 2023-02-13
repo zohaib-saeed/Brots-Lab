@@ -4,7 +4,7 @@ import Button from "@/components/Commons/Button";
 
 const Item3 = () => {
   return (
-    <div className="w-full grid grid-cols-1 mdl:grid-cols-2 gap-12 sm:gap-16 mdl:gap-0 mt-[6em] sm:mt-[8em] mdl:mt-[15em] mlg:mt-[15em]  mxl:mt-[34em] sxxl:mt-[27em] xxl:mt-[20em] vxl:mt-[23em] px-0 md:px-20 mdl:px-0 ">
+    <div className="w-full grid grid-cols-1 mdl:grid-cols-2 gap-12 sm:gap-16 mdl:gap-0 mt-[96px] sm:mt-[128px] mdl:mt-[240px] mlg:mt-[240px]  mxl:mt-[544px] sxxl:mt-[432px] xxl:mt-[320px] vxl:mt-[368px] px-0 md:px-20 mdl:px-0 ">
       {/* Col 1 */}
       <div className="order-last mdl:order-first w-full flex items-start justify-center mdl:justify-start  relative ">
         <video
