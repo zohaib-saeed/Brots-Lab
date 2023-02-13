@@ -12,7 +12,7 @@ const Item1 = () => {
         </div>
         {/* Cube 01 - Upto 976px*/}
         <div
-          className="w-[400px]  sxl:w-[560px] xxl:w-[650px] vxl:w-[830px] h-[700px] xxl:h-[647px] vxl:h-[800px] -left-[150px]  sxl:left-[-225px] xxl:left-[-384px] vxl:left-[-512px] top-[220px] 
+          className="w-[400px]  mxl:w-[560px] xxl:w-[650px] vxl:w-[830px] h-[700px] xxl:h-[647px] vxl:h-[800px] -left-[150px]  mxl:left-[-225px] xxl:left-[-384px] vxl:left-[-512px] top-[220px] 
     sxl:top-[295px] xxl:top-[352px] vxl:top-[400px] absolute hidden mdl:flex items-center justify-center object-contain"
         >
           <Image src="/images/cubes/cube1.svg" alt="" fill />
