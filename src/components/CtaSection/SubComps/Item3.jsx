@@ -61,7 +61,7 @@ const Item3 = () => {
           </div>
           <div>
             {/* Cube 4a => Upto 1366px  */}
-            <div className=" w-[1000px] w-ths h-[700px] absolute right-[-880px] mdl:right-[-640px] top-[-832px] mdl:w-full  mdl:top-[-320px] hidden md:flex mxl:hidden items-center justify-center object-contain ">
+            <div className="w-[1000px] w-ths h-[700px] absolute right-[-880px] mdl:right-[-640px] top-[-832px] mdl:w-full  mdl:top-[-320px] hidden md:flex mxl:hidden items-center justify-center object-contain ">
               <Image src="/images/cubes/cube4a.svg" alt="" fill />
             </div>
             {/* Cube 4d => From 1920px to onwards */}
