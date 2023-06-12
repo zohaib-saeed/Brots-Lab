@@ -1,5 +1,6 @@
 import CrmFurutre from "@/components/CrmFurutre";
 import CtaSection from "@/components/CtaSection/CtaSection";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Tokengate from "@/components/Tokengate";
 
@@ -10,6 +11,7 @@ export default function Home() {
       <CrmFurutre />
       <Tokengate />
       <CtaSection />
+      <Footer />
     </div>
   );
 }

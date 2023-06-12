@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const PressCoverage = () => {
   return (
-    <div className="w-full flex flex-col items-center justify-start gap-16 ssm:gap-20 md:gap-32 lg:gap-40 sxl:gap-20 mxl:gap-24 xxl:gap-28 vxl:gap-32 pb-[600px] mt-[256px] sm:mt-[320px] sxl:mt-[400px] mxl:mt-[464px] xxl:mt-[576px] vxl:mt-[496px]">
+    <div className="w-full flex flex-col items-center justify-start gap-16 ssm:gap-20 md:gap-32 lg:gap-40 sxl:gap-20 mxl:gap-24 xxl:gap-28 vxl:gap-32  mt-[256px] sm:mt-[320px] sxl:mt-[400px] mxl:mt-[464px] xxl:mt-[576px] vxl:mt-[496px]">
       <h2 className="w-full text-left md:text-center vxl:text-left text-[50px] ssm:text-[65px] xxl:text-[100px] leading-[53px] ssm:leading-[66px] xxl:leading-[106px] text-white font-medium xxl:font-bold z-[999] md:z-auto">
         Press Coverage
       </h2>
